@@ -9,13 +9,13 @@ public MyTest {
   public void main() {
     System.out.println(myMesg);
     
-    String newMesg = "tThis is addtional content ";
+    String newMesg = "This is addtional content ";
   
-    updateMesg(newMEsg, num);
+    updateMesg(newMesg, num);
     num ++;
   }
   
-  public void updateMesg (String newMEsg, int count) {
+  public void updateMesg (String newMesg, int count) {
     System.out.println(">>>>> MyTest::updateMEsg()");
     
     String updateStr = newMesg + count;
