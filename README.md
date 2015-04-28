@@ -8,9 +8,17 @@ public MyTest {
   
   public void main() {
     System.out.println(myMesg);
+    
+    String newMesg = "tThis is addtional content ";
   
-    String updateStr = "This is the updated content " + num;
+    updateMesg(newMEsg, num);
     num ++;
+  }
+  
+  public void updateMesg (String newMEsg, int count) {
+    System.out.println(">>>>> MyTest::updateMEsg()");
+    
+    String updateStr = newMesg + count;
     String myMesg += updateStr;
   
     System.out.println(myMesg);
